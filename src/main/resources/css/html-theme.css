@@ -1,0 +1,15 @@
+:root{
+  font-family: Arial;
+  font-size: 11pt;
+  color: white;
+  background: #004067;
+}
+.skill-tooltip{
+  border: 1px solid white;
+  border-collapse: collapse;
+  padding: 12px 12px 12px 12px;
+}
+.skill-tooltip td,
+.skill-tooltip th{
+  border: 1px solid white;
+}

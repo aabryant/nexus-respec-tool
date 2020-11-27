@@ -1,0 +1,118 @@
+.root{
+  -fx-font-family: Arial;
+  -fx-font-size: 11pt;
+  -fx-text-fill: #BCF5E6;
+  -fx-focus-color: transparent;
+  -fx-faint-focus-color: transparent;
+  -fx-background-color: #437398;
+}
+.scroll-pane{
+  -fx-background-insets: 0;
+  -fx-padding: 0;
+}
+.scroll-pane > .viewport{
+  -fx-background-color: #437398;
+}
+.scroll-pane .scroll-bar{
+  -fx-background-color: #004067;
+  -fx-background-insets: 0;
+  -fx-padding: 0;
+}
+.list-view .scroll-bar .thumb,
+.scroll-pane .scroll-bar .thumb{
+  -fx-background-color: #00C9EA;
+}
+.scroll-pane .corner{
+  -fx-background-color: #004067;
+  -fx-background-insets: 0;
+  -fx-padding: 0;
+}
+.menu-bar,
+.menu .context-menu,
+.table-view .column-header,
+.table-view .filler{
+  -fx-background-color: #1A497C;
+}
+.menu > .label,
+.menu-item > .label,
+.label{
+  -fx-text-fill: #BCF5E6;
+}
+.menu-bar > .container > .menu-button:hover > .label,
+.menu-bar > .container > .menu-button:focused > .label,
+.menu-bar > .container > .menu-button:showing > .label,
+.menu-item:focused .label {
+  -fx-text-fill: #FFE799;
+}
+.menu-bar > .container > .menu-button:hover,
+.menu-bar > .container > .menu-button:focused,
+.menu-bar > .container > .menu-button:showing,
+.menu-item:focused{
+  -fx-background-color: #D37A72;
+}
+.list-view,
+.tooltip,
+.combo-box-base,
+.info-box,
+.table-view .column-header-background,
+.table-view .table-row-cell,
+.dialog-pane:header .header-panel{
+  -fx-background-color: #004067;
+}
+.list-view .list-cell{
+  -fx-text-fill: white;
+  -fx-background-color: #004067;
+}
+.list-view .list-cell:focused{
+  -fx-text-fill: #FFE799;
+  -fx-background-color: #D37A72;
+}
+.list-view .scroll-bar{
+  -fx-background-color: transparent;
+}
+.combo-box-popup .list-view .list-cell:filled:hover,
+.menu-item:focused .label{
+  -fx-text-fill: #FFE799;
+  -fx-background-color: #D37A72;
+}
+.combo-box-base .list-cell{
+  -fx-text-fill: white;
+}
+.button,
+.text-field{
+  -fx-background-color: #437398;
+  -fx-text-fill: #BCF5E6;
+}
+.dialog-pane .button{
+  -fx-background-color: #1A497C;
+  -fx-text-fill: #BCF5E6;
+}
+.dialog-pane .text-field{
+  -fx-text-fill: white;
+  -fx-background-color: #004067;
+}
+.table-view{
+  -fx-background-insets: 0;
+  -fx-padding: 0;
+  -fx-background-color: #004067;
+  -fx-table-cell-border-color: #004067;
+}
+.table-view .table-row-cell:selected{
+  -fx-background-color: #D37A72;
+  -fx-table-cell-border-color: #C5726A;
+}
+.table-view .table-row-cell:selected .text{
+  -fx-fill: #FFE799;
+}
+.table-view .table-row-cell .text,
+.table-view .table-row-cell:selected .tooltip .text{
+  -fx-fill: white;
+}
+.skill-panels{
+  -fx-background-color: linear-gradient(to right, #3C6C92 33%, #57736D 33%,
+                                       #57736D 66%, #596383 66%);
+}
+.skill-level-node{
+  -fx-fill: linear-gradient(to bottom right, #A6DBD8 55%, #A6DBD8, #6FA4BD,
+                            #6FA4BD 60%);
+}
